@@ -51,7 +51,10 @@
             <ul class="we-create animated fadeInUp delay-1s">
                 <li>We are a group who study information security.</li>
             </ul>
-            <a class="link animated fadeInUp delay-1s" href="#">Get Started</a>
+            <ul class="main-nav">
+                <li><a class="link animated fadeInUp delay-1s" href="#lesson">Get Started</a></li>
+            </ul>
+
         </div>
 </div>
 </header><!--header-end-->
@@ -60,66 +63,46 @@
 <nav class="main-nav-outer" id="test"><!--main-nav-start-->
     <div class="container">
         <ul class="main-nav">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#service">Services</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#lesson">Lesson</a></li>
+            <li><a href="#Portfolio">Information security</a></li>
             <li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li>
-            <li><a href="#client">Clients</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#client">Program design</a></li>
+            <li><a href="#contact">Join Us</a></li>
         </ul>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
     </div>
 </nav><!--main-nav-end-->
 
 
-<section class="main-section" id="service"><!--main-section-start-->
+<section class="main-section" id="lesson"><!--main-section-start-->
     <div class="container">
-        <h2>Services</h2>
-        <h6>We offer exceptional service with complimentary hugs.</h6>
+        <h2>Lessons</h2>
+        <h6>We offer a series of courses.</h6>
         <div class="row">
             <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <i class="fa-paw"></i>
+                        <i class="fa-flag"></i>
                     </div>
                     <div class="service-list-col2">
-                        <h3>branding &amp; identity</h3>
+                        <h3>Information security</h3>
                         <p>Proin iaculis purus digni consequat sem digni ssim. Donec entum digni ssim.</p>
                     </div>
                 </div>
                 <div class="service-list">
                     <div class="service-list-col1">
-                        <i class="fa-gear"></i>
+                        <i class="fa-code"></i>
+                        <!--<i class="fa-apple"></i>-->
                     </div>
                     <div class="service-list-col2">
-                        <h3>web development</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Digni ssim porttitora .</p>
-                    </div>
-                </div>
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <i class="fa-apple"></i>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>mobile design</h3>
+                        <h3>Program design</h3>
                         <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
-                    </div>
-                </div>
-                <div class="service-list">
-                    <div class="service-list-col1">
-                        <i class="fa-medkit"></i>
-                    </div>
-                    <div class="service-list-col2">
-                        <h3>24/7 Support</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
                     </div>
                 </div>
             </div>
             <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
                 <img src="img/macbook-pro.png" alt="">
             </figure>
-
         </div>
     </div>
 </section><!--main-section-end-->
@@ -313,7 +296,7 @@
 
 <section class="business-talking"><!--business-talking-start-->
     <div class="container">
-        <h2>Let’s Talk Business.</h2>
+        <h2>Let's Go Study.</h2>
     </div>
 </section><!--business-talking-end-->
 <div class="container">
@@ -338,12 +321,10 @@
                     <span><strong>Monday - Thursday:</strong> 10am - 6pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday - Sunday:</strong> Best not to ask.</span>
                 </div>
                 <ul class="social-link">
-                    <li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>
-                    <li class="facebook"><a target="_blank" href="http://fb.me/HackerSir.tw"><i class="fa-facebook"></i></a>
-                    </li>
+                    <li class="facebook"><a target="_blank" href="http://fb.me/HackerSir.tw"><i class="fa-facebook"></i></a></li>
+                    <li class="github"><a target="_blank" href="https://github.com/HackerSir"><i class="fa-github"></i></a></li>
                     <li class="pinterest"><a href="#"><i class="fa-pinterest"></i></a></li>
                     <li class="gplus"><a href="#"><i class="fa-google-plus"></i></a></li>
-                    <li class="dribbble"><a href="#"><i class="fa-dribbble"></i></a></li>
                 </ul>
             </div>
             <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
@@ -364,10 +345,15 @@
     </section>
 </div>
 <footer class="footer">
-    <div class="container">
-        <div class="footer-logo"><a href="#"><img src="img/footer-logo.png" alt=""></a></div>
-        <span class="copyright">Copyright © 2017 | <a href="http://bootstraptaste.com/">Bootstrap Themes</a> by BootstrapTaste</span>
-    </div>
+    <ul class="main-nav">
+        <div class="container">
+            <div class="footer-logo">
+                <a href="#header"><img src="img/footer-logo.png" alt=""></a>
+            </div>
+            <span class="copyright">Copyright © 2017 | Hackers' Club, Feng Chia University. All rights reserved.</span>
+        </div>
+    </ul>
+
     <!-- 
         All links in the footer should remain intact. 
         Licenseing information is available at: http://bootstraptaste.com/license/
@@ -382,9 +368,7 @@
         $('.res-nav_click').click(function () {
             $('.main-nav').slideToggle();
             return false
-
         });
-
     });
 </script>
 
