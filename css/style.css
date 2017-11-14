@@ -409,10 +409,11 @@ img {
 /* Clients
 ---------------------------------*/
 .client-part{
-	background:url(../img/section-bg1.jpg) center center no-repeat;
+	background:url(https://i.imgur.com/Dqcmy7I.jpg) center center no-repeat;
 	background-size:cover;
 	padding:55px 0;
 	text-align:center;
+	-webkit-filter: drop-shadow(7px 7px 7px #333);
 }
 .client-part-haead{
 	color:#fdfdfd;
@@ -421,6 +422,7 @@ img {
 	margin:30px 0 10px;
 	font-family: ''Open Sans',sans-serif';
 	font-style: italic;
+	text-shadow: #87CEEB 1px 0.5px;
 }
 .client{
 	padding:0;
@@ -434,6 +436,7 @@ img {
 }
 .client li a{
 	display:inline-block;
+	text-shadow: #87CEEB 1px 0.5px;
 }
 .client li a img{
 	margin-bottom:15px;
